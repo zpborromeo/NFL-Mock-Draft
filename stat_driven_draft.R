@@ -219,3 +219,4 @@ for (i in 1:nrow(merge_order_needs)){
   
 }
 
+save_document <- write.csv(potential_draft_order, "E:/UALR/Artificial Intelligence/borromeoz-mock-draft/NFL-Mock-Draft/SDD_PDO_V1.csv")
