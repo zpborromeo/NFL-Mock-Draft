@@ -3,7 +3,7 @@
     "path": "E:/UALR/Artificial Intelligence/borromeoz-mock-draft/NFL-Mock-Draft/score_only_draft.R",
     "project_path": "score_only_draft.R",
     "type": "r_source",
-    "hash": "1484217321",
+    "hash": "1500755535",
     "contents": "",
     "dirty": false,
     "created": 1647968767220.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "139,2",
-        "scrollLine": "0"
+        "cursorPosition": "170,122",
+        "scrollLine": "141"
     },
     "folds": "",
-    "lastKnownWriteTime": 1647972855,
+    "lastKnownWriteTime": 1648130274,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1647972855656,
+    "last_content_update": 1648130274766,
     "read_only": false,
     "read_only_alternatives": []
 }
