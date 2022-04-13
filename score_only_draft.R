@@ -20,16 +20,16 @@ library(tm)
 # of this assignment
 
 #list of the current NFL draft order for 2022
-current_draft_order <- readxl::read_excel("nfl_draft_order_2022.xlsx") %>% 
+current_draft_order <- readxl::read_excel("data/nfl_draft_order_2022.xlsx") %>% 
   clean_names()
 
 #list of combined team needs for 2022
-team_needs <- readxl::read_excel("nfl_draft_team_needs.xlsx") %>% 
+team_needs <- readxl::read_excel("data/nfl_draft_team_needs.xlsx") %>% 
   clean_names() %>% 
   rename(team = team_name)
 
 #list of combined top players for the 2022 draft
-top_200_players <- readxl::read_excel("top_200_players.xlsx") %>% 
+top_200_players <- readxl::read_excel("data/top_200_players.xlsx") %>% 
   clean_names()
 
 draft_order_pickless <- current_draft_order %>% 

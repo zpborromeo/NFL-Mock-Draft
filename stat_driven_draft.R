@@ -22,16 +22,16 @@ library(matrixStats)
 # of this assignment
 
 #list of the current NFL draft order for 2022
-current_draft_order <- readxl::read_excel("nfl_draft_order_2022.xlsx") %>%
+current_draft_order <- readxl::read_excel("data/nfl_draft_order_2022.xlsx") %>%
   clean_names()
 
 #list of combined team needs for 2022
-team_needs <- readxl::read_excel("nfl_draft_team_needs.xlsx") %>%
+team_needs <- readxl::read_excel("data/nfl_draft_team_needs.xlsx") %>%
   clean_names() %>%
   rename(team = team_name)
 
 #list of combined top players for the 2022 draft
-top_200_players <- readxl::read_excel("top_200_players.xlsx") %>%
+top_200_players <- readxl::read_excel("data/top_200_players.xlsx") %>%
   clean_names()
 
 #merging of draft order with the team needs in order
@@ -47,7 +47,7 @@ merge_order_needs <- draft_order_pickless %>%
 remaining_big_board <- top_200_players
 
 #importing the data from previous drafts to read and perform analysis
-historic_draft_data <- readxl::read_excel("historical_draft_data.xlsx")
+historic_draft_data <- readxl::read_excel("data/historical_draft_data.xlsx")
 
 #since we only care about the Round, the Pick number, and the Position,
 #we select these columns only
