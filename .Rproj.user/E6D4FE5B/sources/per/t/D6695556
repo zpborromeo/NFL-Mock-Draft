@@ -3,7 +3,7 @@
     "path": "E:/UALR/Artificial Intelligence/borromeoz-mock-draft/NFL-Mock-Draft/score_multiplier_draft.R",
     "project_path": "score_multiplier_draft.R",
     "type": "r_source",
-    "hash": "1265851461",
+    "hash": "2368602137",
     "contents": "",
     "dirty": false,
     "created": 1648084406197.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "28,26",
+        "cursorPosition": "3,31",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1649855561,
+    "lastKnownWriteTime": 1649861532,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1649855561406,
+    "last_content_update": 1649861532463,
     "read_only": false,
     "read_only_alternatives": []
 }

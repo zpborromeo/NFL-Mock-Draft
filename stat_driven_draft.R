@@ -1,7 +1,7 @@
 # Author: Zach Borromeo
 # Project Name: AI Final Project
 # Date Created: March 20, 2022
-# Last Modified: March 20, 20221
+# Last Modified: April 13, 2022
 
 
 # importing all required libraries for this project, primarily to handle data,
@@ -219,4 +219,5 @@ for (i in 1:nrow(merge_order_needs)){
   
 }
 
-save_document <- write.csv(potential_draft_order, "E:/UALR/Artificial Intelligence/borromeoz-mock-draft/NFL-Mock-Draft/SDD_PDO_V1.csv")
+#You will need to change your directory to see the output if you want to run the files yourself
+save_document <- write.csv(potential_draft_order, "E:/UALR/Artificial Intelligence/borromeoz-mock-draft/NFL-Mock-Draft/outputs/SDD_PDO_V1.csv")
